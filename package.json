@@ -4,7 +4,10 @@
   "description": "Treinamento de automação com Cypress",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "cy:run": "npx cypress run --browser chrome",
+    "cy:open": "npx cypress open",
+    "cy:report": "npx cypress run --record --key c0b620be-b1b0-4590-9e55-15a86759a033"
   },
   "repository": {
     "type": "git",

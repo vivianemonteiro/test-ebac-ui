@@ -1,0 +1,43 @@
+[
+    {
+        "nome": "Alice",
+        "sobrenome": "Silva",
+        "empresa": "Meta",
+        "pais": "Brasil",
+        "endereco": "Avenida Parana",
+        "numero": "2005",
+        "cidade": "Curitiba",
+        "estado": "Paraná",
+        "cep": "80035-150",
+        "telefone": "981225657",
+        "email":"alice.silva@teste.com"
+    },
+    {
+        "nome": "Luciana",
+        "sobrenome": "Leite",
+        "empresa": "Google",
+        "pais": "Brasil",
+        "endereco": "Avenida Paulista",
+        "numero": "3225",
+        "cidade": "São Paulo",
+        "estado": "São Paulo",
+        "cep": "06448-150",
+        "telefone": "983549889",
+        "email":"lu_leite@teste.com"
+
+    },
+    {
+        "nome": "Leticia",
+        "sobrenome": "Gomes",
+        "empresa": "Disney",
+        "pais": "Brasil",
+        "endereco": "Alameda Campinas",
+        "numero": "405",
+        "cidade": "São Paulo",
+        "estado": "São Paulo",
+        "cep": "80035-300",
+        "telefone": "987781263",
+        "email":"letigomes@teste.com"
+
+    }
+]

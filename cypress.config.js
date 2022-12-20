@@ -6,8 +6,10 @@ module.exports = defineConfig({
       // implement node event listeners here
     },
   
-    "baseUrl": "http://lojaebac.ebaconline.art.br/"
+    "baseUrl": "http://lojaebac.ebaconline.art.br/",
+    "projectId": "irnocr"
     
   },
+  
 });
 
