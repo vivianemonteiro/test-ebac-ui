@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/vivianemonteiro/test-ebac-ui#readme",
   "devDependencies": {
+    "@faker-js/faker": "^7.6.0",
     "cypress": "^12.1.0"
   }
 }
