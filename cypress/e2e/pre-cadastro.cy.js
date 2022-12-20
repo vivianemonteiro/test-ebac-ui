@@ -9,7 +9,7 @@ describe('Funcionalidade Pré Cadastro', () => {
 
 
     beforeEach(() => {
-        cy.visit('http://lojaebac.ebaconline.art.br/minha-conta/')
+        cy.visit('/minha-conta/')
     });
 
     afterEach(() => {
