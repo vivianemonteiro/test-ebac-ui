@@ -24,7 +24,7 @@ describe('Funcionalidade: Página de produtos', () => {
         .click()
     });
 
-    it('Deve adicionar um item ao carrinho', () => {
+    it('Deve adicionar itens ao carrinho', () => {
         var quantidade = 5
 
         cy.get('[class="product-block grid"]')
@@ -37,6 +37,14 @@ describe('Funcionalidade: Página de produtos', () => {
         cy.get('.dropdown-toggle > .mini-cart-items').should('contain' , quantidade)
         cy.get('.woocommerce-message').should('contain' , quantidade +' × “Ajax Full-Zip Sweatshirt” foram adicionados no seu carrinho.')
 
+    });
+
+    it('Deve adicionar itens ao carrinho utilizando comando personalizado', () => {
+        cy.addProdutos('Ajax Full-Zip Sweatshirt','L', 'Red', 15)
+    });
+
+    it('Deve adicionar itens ao carrinho utilizando comando personalizado', () => {
+        cy.addProdutos('Abominable Hoodie','M', 'Green', 3)
     });
 
 });

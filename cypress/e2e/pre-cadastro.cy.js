@@ -45,6 +45,9 @@ describe('Funcionalidade Pré Cadastro', () => {
         cy.get('.woocommerce-error > li').should('contain', 'Erro: Informe um endereço de e-mail válido.')
     });
 
+    it('Deve realizar o pré cadastro com sucesso utilizando comandos customizados', () => {
+        cy.preCadastro(emailFaker, password, nameFaker, lastNameFaker)
+    });
 
 
 });
